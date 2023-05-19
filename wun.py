@@ -47,7 +47,7 @@ for xd in range(10000):
 
 ugen = []
 
- for brayen in range(10000):
+for agenkuw in range(100):
     rr = random.randint
     rc = random.choice
     u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0, 9))}; Google Pixel {str(rr(1, 10))}XL Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73, 150))}.0.{str(rr(5500, 5900))}.{str(rr(75, 150))} Mobile Safari/537.36"

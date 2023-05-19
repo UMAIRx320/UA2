@@ -45,19 +45,25 @@ for xd in range(10000):
 
 	import random
 
-for xd in range(10000):
+ugen = []
+
+ for brayen in range(10000):
     rr = random.randint
     rc = random.choice
-    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Google Pixel {str(rr(1,10))}XL Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Oppo {rc(['A74', 'A53s', 'A16', 'F19s', 'F1 Plus'])} Build/TP1A.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Infinix {rc(['S5', 'Smart 6', 'Hot 12', 'Note 11', 'Zero 5G'])} Build/RP1A.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Huawei {rc(['Y9s', 'P60', '', 'Enjoy 7S', 'Nova 3i'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Samsung Galaxy {rc(['Note 3', 'On8', 'S21', 'Note 10', 'A7', 'J2', 'M32', 'F12'])} Build/R16NW.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u6 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; HTC One {rc(['A9', 'E8', 'M9', 'X', 'E9t', 'X2'])} Build/LRX22G.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u7 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Sony Xperia {rc(['XZ', 'L4', '10', 'L1', 'XZ2', 'XZ3', '5', 'Ace', 'Z', 'XA2'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u8 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Moto {rc(['G4', 'G8', 'G41', 'X4', 'edge 30', 'G7 Plus', 'G9 Power'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u9 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Vivo {rc(['V11', 'V15', 'Y20', 'Y30', 'X50', 'NEX 3'])} Build/PKQ1.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    UaMainn = random.choice([u1, u2, u3, u4, u5, u6, u7, u8, u9])
+    u1 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0, 9))}; Google Pixel {str(rr(1, 10))}XL Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73, 150))}.0.{str(rr(5500, 5900))}.{str(rr(75, 150))} Mobile Safari/537.36"
+    u2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Samsung Galaxy {rc(['S4', 'S6', 'S21', 'S8', 'S7', 'S9+', 'M32', 'F12'])} Build/R16NW.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u3 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Huawei Nova {rc(['10', '3i', '11', 'Y61', '3i'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0, 9))}; Oppo {rc(['A74', 'A53s', 'A16', 'F19s', 'F1 Plus'])} Build/TP1A.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73, 150))}.0.{str(rr(5500, 5900))}.{str(rr(75, 150))} Mobile Safari/537.36"
+    u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Infinix {rc(['S5', 'Smart 6', 'Hot 12', 'Note 11', 'Zero 5G'])} Build/RP1A.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u6 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Huawei {rc(['Y9s', 'P60', '', 'Enjoy 7S', 'Nova 3i'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u7 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Samsung Galaxy Note {rc(['3', 'On8', '9', '10', '7', '8', '5', '6'])} Build/R16NW.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u8 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; HTC One {rc(['A9', 'E8', 'M9', 'X', 'E9t', 'X2'])} Build/LRX22G.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u9 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Sony Xperia {rc(['XZ', 'L4', '10', 'L1', 'XZ2', 'XZ3', '5', 'Ace', 'Z', 'XA2'])} Build/RPB3.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u10 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Moto {rc(['G4', 'G8', 'G41', 'X4', 'edge 30', 'G7 Plus', 'G9 Power'])} Build/MMB29M.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u11 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}.{str(rr(0,9))}; Vivo {rc(['V11', 'V15', 'Y20', 'Y30', 'X50', 'NEX 3'])} Build/PKQ1.{str(rr(1111111, 2100000))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u12 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; LG-H815 Build/MRA58K.{str(rr(111111,210000))}.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    u13 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; LG {rc(['K71', 'Q61', 'G7', 'G8', 'G3', 'K10', 'Stylo 7', 'Nexus 5X'])} Build/OPM1.{str(rr(111111,210000))}.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
+    UaMainn = random.choice([u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13])
     ugen.append(UaMainn)
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
